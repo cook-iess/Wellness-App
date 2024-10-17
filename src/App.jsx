@@ -1,19 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import Bars from "./Components/Shared/bars";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./Components/dashboard";
+import Exercises from "./Components/exercises";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <div className='text-center font-bold'>hi kuki</div>
-        <div>hi kuki</div>
-        <div>hi kuki</div>
-      </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Bars />}>
+          <Route index element={<Dashboard />} />
+          <Route path="Exercises" element={<Exercises />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
