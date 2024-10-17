@@ -16,6 +16,7 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="Exercises" element={<Exercises />} />
         </Route>
+        <Route path="login" element={<div>this is login page</div>}/>
       </Routes>
     </Router>
   );

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-function products() {
+function excercises() {
   return (
-    <div>this is excercises page</div>
-  )
+    <div>
+      <p>this is excercises page</p>
+      <Link to="/" className="underline">go to dashboard</Link>
+    </div>
+  );
 }
 
-export default products
+export default excercises;

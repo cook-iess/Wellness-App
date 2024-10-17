@@ -1,12 +1,16 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Sidebar from "./sidebar";
 
 function bars() {
   return (
-    <div>
-      <div className="bg-">sidebar</div>
-      <div className="">header</div>
-      <div>{<Outlet />}</div>
+    <div className="flex flex-row bg-neutral-100 h-screen w-screen overflow-hidden">
+      <Sidebar />
+      <div className="">
+        <div className="bg-teritary_color">header</div>
+        <div>{<Outlet />}</div>
+      </div>
     </div>
   );
 }
