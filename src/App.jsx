@@ -8,10 +8,11 @@ function App() {
 
   return (
     <>
-        <div>
-          <div>hi kuki</div>
-          <div>hi kuki</div>
-        </div>
+      <div>
+        <div>hi kuki</div>
+        <div>hi kuki</div>
+        <div>hi kuki</div>
+      </div>
     </>
   )
 }
