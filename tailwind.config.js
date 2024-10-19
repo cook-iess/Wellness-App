@@ -11,6 +11,9 @@ export default {
         secondary_color: '#4d88cc',
         teritary_color: '#536780',
       },
+      fontFamily: {
+        custfont: ["Montserrat"],
+      }
     },
   },
   plugins: [],
