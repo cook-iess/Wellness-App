@@ -20,7 +20,7 @@ function Sidebar() {
         <ul className="space-y-4 pl-4">
           <li>
             <Link
-              to="/exercises"
+              to="/"
               className="no-underline flex items-center gap-3 text-lg text-primary_color hover:text-secondary_color"
             >
               <FaDumbbell className="text-xl" />

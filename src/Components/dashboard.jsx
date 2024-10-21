@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const dashboard = () => {
   return (
     <div>
-      <p>this is dashboard page</p>
-      <Link to="/exercises">go to exercises</Link>
+      <p>this is excersises page</p>
+      <Link to="/meals">go to meals</Link>
     </div>
   );
 };

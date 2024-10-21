@@ -22,7 +22,7 @@ function Header({ toggleSidebar, isSidebarVisible }) {
           placeholder="Search..."
         />
 
-        <div className="flex items-center ml-4 border-l-2 border-white pl-6">
+        <div className="flex items-center ml-6 border-l-2 border-white pl-6">
           {/* Profile picture with a border and shadow */}
           <img
             src="src/assets/sample_pp.png" // Replace with actual URL
