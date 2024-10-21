@@ -1,13 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
-function excercises() {
+function exercises() {
   return (
-    <div>
-      <p>this is excercises page</p>
-      <Link to="/" className="underline">go to dashboard</Link>
-    </div>
-  );
+    <div>exercises</div>
+  )
 }
 
-export default excercises;
+export default exercises
