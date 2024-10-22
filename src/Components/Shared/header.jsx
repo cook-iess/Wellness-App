@@ -4,16 +4,16 @@ import { MdArrowBack } from 'react-icons/md';
 
 function Header({ toggleSidebar, isSidebarVisible }) {
   return (
-    <header className="flex justify-between items-center p-4 bg-sky-800 transition-all duration-300">
+    <header className="flex justify-between items-center py-3 px-4 bg-sky-800 transition-all duration-300">
       <div className="flex items-center">
         <button
           onClick={toggleSidebar}
-          className="text-white mr-4 hover:bg-sky-800 p-2 rounded-md transition duration-300"
+          className="text-white mr-4 hover:bg-sky-900 p-2 rounded-md transition duration-300"
         >
-          {isSidebarVisible ? <MdArrowBack size={28} />: <FiMenu size={28} />}
+          {isSidebarVisible ? <MdArrowBack size={24} />: <FiMenu size={28} />}
         </button>
 
-        <h1 className="text-2xl font-extrabold text-white drop-shadow-md items-center mt-1">
+        <h1 className="text-xl font-extrabold text-white drop-shadow-md items-center mt-1">
           Dashboard
         </h1>
       </div>
@@ -21,7 +21,7 @@ function Header({ toggleSidebar, isSidebarVisible }) {
       <div className="flex items-center">
         <input
           type="text"
-          className="w-60 py-2 pr-2 pl-4 rounded-full bg-white text-primary_color placeholder-teritary_color shadow-md focus:outline-none focus:ring focus:ring-sky-700 transition duration-300"
+          className="w-60 py-1 pr-2 pl-4 rounded-full bg-white text-primary_color placeholder-gray-400 shadow-md focus:outline-none focus:ring focus:ring-sky-700 transition duration-300"
           placeholder="Search..."
         />
 
@@ -30,7 +30,7 @@ function Header({ toggleSidebar, isSidebarVisible }) {
           <img
             src="src/assets/sample_pp.png"
             alt="Profile"
-            className="w-11 h-11 rounded-full shadow-lg mr-3"
+            className="w-10 h-10 rounded-full shadow-lg mr-3"
           />
           <span className="text-white font-semibold text-lg">Admin</span>
         </div>

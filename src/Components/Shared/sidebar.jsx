@@ -8,22 +8,22 @@ function Sidebar() {
   const [activeLink, setActiveLink] = useState(location.pathname); // Set the initial active link
 
   return (
-    <div className="bg-gradient-to-b from-white to-secondary_color text-primary_color flex flex-col h-screen w-64">
+    <div className="bg-gradient-to-b from-white to-secondary_color text-primary_color flex flex-col h-screen w-56">
       {/* Logo */}
       <div className="flex items-center gap-1 px-4 py-2 pt-4">
-        <img src={logo} alt="logo" className="w-20" />
-        <span className="text-xl font-semibold font-custfont">Well App</span>
+        <img src={logo} alt="logo" className="w-16" />
+        <span className="text-lg font-semibold font-custfont">Well App</span>
       </div>
 
       <hr className="mt-4 border-t border-gray-300" />
 
       {/* Exercises, Meals, and Users Links */}
       <div className="flex-1">
-        <ul className="space-y-4 pl-6">
+        <ul className="space-y-2 pl-6">
           <li>
             <Link
               to="/"
-              className={`pl-4 py-3 rounded-l-full rounded-r-lg flex items-center gap-3 text-lg text-primary_color no-underline ${
+              className={`pl-4 py-[12px] rounded-l-full rounded-r-lg flex items-center gap-3 text-lg text-primary_color no-underline ${
                 activeLink === "/" ? "bg-blue-50 drop-shadow-2xl" : "hover:bg-blue-50"
               }`}
               onClick={() => setActiveLink("/")}
@@ -35,7 +35,7 @@ function Sidebar() {
           <li>
             <Link
               to="/meals"
-              className={`pl-4 py-3 rounded-l-full flex items-center gap-3 text-lg text-primary_color no-underline ${
+              className={`pl-4 py-[12px] rounded-l-full flex items-center gap-3 text-lg text-primary_color no-underline ${
                 activeLink === "/meals" ? "bg-blue-50 drop-shadow-2xl" : "hover:bg-blue-50"
               }`}
               onClick={() => setActiveLink("/meals")}
@@ -47,7 +47,7 @@ function Sidebar() {
           <li>
             <Link
               to="/users"
-              className={`pl-4 py-3 rounded-l-full flex items-center gap-3 text-lg text-primary_color no-underline ${
+              className={`pl-4 py-[12px] rounded-l-full flex items-center gap-3 text-lg text-primary_color no-underline ${
                 activeLink === "/users"
                   ? "bg-blue-50 drop-shadow-2xl"
                   : "hover:bg-blue-50"
@@ -65,11 +65,11 @@ function Sidebar() {
 
       {/* Logout */}
       <div className="py-2">
-        <ul className="space-y-4 pl-4">
+        <ul className="space-y-4 pl-1">
           <li>
             <Link
               to="/logout"
-              className="no-underline flex items-center gap-3 text-lg text-primary_color hover:text-secondary_color hover:bg-secondary_color"
+              className="pl-4 py-[12px] rounded-lg no-underline flex items-center gap-3 text-lg text-primary_color hover:text-sky-800"
             >
               <FaSignOutAlt className="text-xl" />
               <span>Logout</span>

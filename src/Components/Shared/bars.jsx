@@ -14,7 +14,7 @@ function Bars() {
     <div className="flex h-screen w-screen overflow-hidden">
       <div
         className={`transition-all duration-300 ease-in-out ${
-          isSidebarVisible ? "w-64" : "w-0"
+          isSidebarVisible ? "w-56" : "w-0"
         } bg-blue-100`}
       >
         {isSidebarVisible && <Sidebar />}
