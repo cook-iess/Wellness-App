@@ -3,9 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Bars from "./Components/Shared/bars";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Exercises from "./Components/exercises";
-import Meals from "./Components/meals";
-import Users from "./Components/users"
+import Exercises from "./Components/Pages/exercises";
+import Meals from "./Components/Pages/meals";
+import Users from "./Components/Pages/users"
 
 function App() {
   const [count, setCount] = useState(0);
