@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Exercises from "./Components/Pages/exercises";
 import Meals from "./Components/Pages/meals";
 import Users from "./Components/Pages/users"
+import ExerciseDetail from "./Components/Detail/ExerciseDetail";
+import MealDetail from "./Components/Detail/MealDetail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" element={<Exercises />} />
           <Route path="/meals" element={<Meals />} />
           <Route path="/users" element={<Users />} />
+          <Route path="/exercise/:id" element={<ExerciseDetail />} />
+          <Route path="/meals/:id" element={<MealDetail />} />
         </Route>
         <Route path="login" element={<div>this is login page</div>}/>
       </Routes>
