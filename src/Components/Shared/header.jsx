@@ -4,7 +4,7 @@ import { MdArrowBack } from 'react-icons/md';
 
 function Header({ toggleSidebar, isSidebarVisible }) {
   return (
-    <header className="flex justify-between items-center py-3 px-4 bg-sky-800 transition-all duration-300">
+    <header className="flex justify-between items-center py-3 pl-4 pr-8 bg-sky-800 transition-all duration-300">
       <div className="flex items-center">
         <button
           onClick={toggleSidebar}
@@ -13,7 +13,7 @@ function Header({ toggleSidebar, isSidebarVisible }) {
           {isSidebarVisible ? <MdArrowBack size={24} />: <FiMenu size={28} />}
         </button>
 
-        <h1 className="text-xl font-extrabold text-white drop-shadow-md items-center mt-1">
+        <h1 className="text-xl font-extrabold text-white drop-shadow-md items-center mt-1 tracking-wide">
           Dashboard
         </h1>
       </div>
