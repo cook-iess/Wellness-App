@@ -3,7 +3,7 @@ export const sampleMeals = [
         id: 1,
         name: "Scrambled Eggs",
         description: "Fluffy scrambled eggs cooked with a pinch of salt and pepper.",
-        images: ["https://example.com/scrambled-eggs.jpg"],
+        images: ["https://www.allrecipes.com/thmb/0VXMwCY9RVNrNvWcF_9v0iZpNqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/JF_241160_CreamyCottageCheeseScrambled_4x3_12902-619d00dc88594ea9b8ed884a108db16d.jpg"],
         mealType: "breakfast",
         nutritionContent: {
             protein: 12,
@@ -26,7 +26,7 @@ export const sampleMeals = [
         id: 2,
         name: "Grilled Chicken Salad",
         description: "A healthy salad with grilled chicken, mixed greens, and vinaigrette.",
-        images: ["https://example.com/grilled-chicken-salad.jpg"],
+        images: ["https://hips.hearstapps.com/hmg-prod/images/grilled-chicken-salad-lead-6628169550105.jpg"],
         mealType: "lunch",
         nutritionContent: {
             protein: 30,
@@ -50,7 +50,7 @@ export const sampleMeals = [
         id: 3,
         name: "Quinoa Bowl",
         description: "Nutritious quinoa bowl topped with vegetables and avocado.",
-        images: ["https://example.com/quinoa-bowl.jpg"],
+        images: ["https://veganheaven.org/wp-content/uploads/2020/10/Quinoa-Bowl-6.jpg"],
         mealType: "lunch",
         nutritionContent: {
             protein: 10,
@@ -74,7 +74,7 @@ export const sampleMeals = [
         id: 4,
         name: "Salmon with Asparagus",
         description: "Baked salmon served with roasted asparagus.",
-        images: ["https://example.com/salmon-asparagus.jpg"],
+        images: ["https://playswellwithbutter.com/wp-content/uploads/2023/04/Sheet-Pan-Salmon-and-Asparagus-with-Crispy-Smashed-Potatoes-13.jpg"],
         mealType: "dinner",
         nutritionContent: {
             protein: 25,
@@ -98,7 +98,7 @@ export const sampleMeals = [
         id: 5,
         name: "Greek Yogurt Parfait",
         description: "Layered Greek yogurt with granola and mixed berries.",
-        images: ["https://example.com/yogurt-parfait.jpg"],
+        images: ["https://beautifuleatsandthings.com/wp-content/uploads/2020/02/Lemon-Berry-Greek-Yogurt-Parfait3.jpg"],
         mealType: "snack",
         nutritionContent: {
             protein: 15,
@@ -145,7 +145,7 @@ export const sampleMeals = [
         id: 7,
         name: "Avocado Toast",
         description: "Creamy avocado spread on whole-grain toast, topped with salt and pepper.",
-        images: ["https://example.com/avocado-toast.jpg"],
+        images: ["https://www.eatingwell.com/thmb/PM3UlLhM0VbE6dcq9ZFwCnMyWHI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EatingWell-April-Avocado-Toast-Directions-04-5b5b86524a3d4b35ac4c57863f6095dc.jpg"],
         mealType: "breakfast",
         nutritionContent: {
             protein: 6,
@@ -169,7 +169,7 @@ export const sampleMeals = [
         id: 8,
         name: "Chickpea Salad",
         description: "Refreshing salad made with chickpeas, cucumber, and parsley.",
-        images: ["https://example.com/chickpea-salad.jpg"],
+        images: ["https://thedeliciousplate.com/wp-content/uploads/2022/01/Indian-chickpea-salad-10-2.jpg"],
         mealType: "lunch",
         nutritionContent: {
             protein: 10,
@@ -194,7 +194,7 @@ export const sampleMeals = [
         id: 9,
         name: "Pasta Primavera",
         description: "Pasta tossed with seasonal vegetables and olive oil.",
-        images: ["https://example.com/pasta-primavera.jpg"],
+        images: ["https://zardyplants.com/wp-content/uploads/2021/07/Vegan-Pasta-Primavera-04.jpg"],
         mealType: "dinner",
         nutritionContent: {
             protein: 12,
@@ -218,7 +218,7 @@ export const sampleMeals = [
         id: 10,
         name: "Fruit Smoothie",
         description: "A refreshing smoothie made with banana, spinach, and almond milk.",
-        images: ["https://example.com/fruit-smoothie.jpg"],
+        images: ["https://i.pinimg.com/originals/43/64/68/436468412b38cfd2c5b76a00c8091e46.jpg"],
         mealType: "snack",
         nutritionContent: {
             protein: 4,

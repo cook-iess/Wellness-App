@@ -35,7 +35,7 @@ function Meals() {
   return (
     <div className="container mx-auto p-3 mt-3 rounded-lg shadow-md overflow-hidden">
       <div className="flex justify-between">
-        <h2 className="text-2xl font-light mb-4 text-sky-900 my-auto">Meal List</h2>
+        <h2 className="text-2xl font-light mb-4 text-sky-900 my-auto">Meals List</h2>
         <TextField
           className="w-64"
           label="Search"
