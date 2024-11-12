@@ -12,7 +12,7 @@ function Sidebar() {
       {/* Logo */}
       <div className="flex items-center gap-1 px-4 py-2 pt-4">
         <img src={logo} alt="logo" className="w-16" />
-        <span className="text-lg font-semibold font-custfont">Well App</span>
+        <span className="text-lg font-semibold font-custfont">WellUp</span>
       </div>
 
       <hr className="mt-4 border-t border-gray-300" />
