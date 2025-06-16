@@ -5,7 +5,9 @@ import './index.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 createRoot(document.getElementById('root')).render(
+  <div class="w-full">
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
+    </div>,
 )
